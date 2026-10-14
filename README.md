@@ -16,12 +16,17 @@ Customer Retention: What is the overall customer retention rate, and how stable 
 ## Data Processing Steps
 
 Data Cleaning-
+
 Handling Missing Values: Identified and imputed missing customer attributes or order categories using modal imputation or tagging unknown categories.
+
 Deduplication: Filtered out duplicate order transactions caused by system redundancies or payment retries.
+
 Data Type Standardization: Standardized date formats (YYYY-MM-DD), financial values (INR/Currency), and numeric data types for metrics like sales totals and order counts.
 
 Calculations-
+
 Average Order Value (AOV) = {Total Revenue}/{Total Orders}
+
 Customer Retention Rate(%)={Returning Customers in Month}/{Total Active Base}* 100
 
 Data Modeling 
