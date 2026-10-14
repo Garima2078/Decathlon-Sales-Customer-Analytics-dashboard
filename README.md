@@ -13,6 +13,17 @@ Seasonality: How do sales fluctuate across different months of the year, and whe
 Customer Demographics: Is there a significant variance in purchasing behavior between male and female customers?   
 Customer Retention: What is the overall customer retention rate, and how stable is customer loyalty month-over-month? 
 
+## Data Processing Steps
+Data Cleaning-
+Handling Missing Values: Identified and imputed missing customer attributes or order categories using modal imputation or tagging unknown categories.
+Deduplication: Filtered out duplicate order transactions caused by system redundancies or payment retries.
+Data Type Standardization: Standardized date formats (YYYY-MM-DD), financial values (INR/Currency), and numeric data types for metrics like sales totals and order counts.
+Calculations-
+Average Order Value (AOV): Formulated as {AOV} = {Total Revenue}/{Total Orders}
+Customer Retention Rate: Calculated cohort-based monthly retention rates and aggregated cumulative retention:
+{Retention Rate (%)= {Returning Customers in Month}\{Total Active Base}* 100
+Data Modeling 
+
 ## Important KPIs
 The dashboard highlights several core performance indicators-
 
@@ -55,3 +66,8 @@ Retention hits its lowest point in December (12.81%) and August (13.31%).
 
 ## Final Conclusion
 Decathlon's analytics reflect a thriving retail operation characterized by robust double-digit growth in sales (+40.8%) and orders (+40.1%). Because Cycling serves as the primary financial engine, supply chain and inventory efforts should prioritize cycling gear, especially ahead of peak spring demand. Furthermore, the balanced gender split suggests marketing campaigns are successfully reaching a broad audience. Strategic initiatives should focus on boosting engagement during the summer sales dip and improving loyalty programs to counter the drop in year-end monthly retention.   
+
+## Strategic Recommendations 
+Capitalize on Cycling: Allocate inventory, marketing budget, and supply chain prioritizations toward cycling products ahead of the peak spring season.  
+Mitigate Summer Slumps: Introduce mid-year promotional strategies during July–September to boost order volumes during historical sales troughs.  
+Optimize Year-End Retention: Implement re-engagement and loyalty campaigns in Q4 to improve the year-end retention dip observed in December.
