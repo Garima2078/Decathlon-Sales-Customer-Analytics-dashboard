@@ -6,6 +6,7 @@ This project features an interactive Sales & Customer Analytics Dashboard design
 
 ## Key Business Questions
 As a analyst evaluating this dashboard, several key business questions are addressed:
+
 Revenue & Growth: What are the total sales and order volumes, and how do they track against growth targets?   
 Product Performance: Which sports types and product categories drive the highest revenue and order counts?   
 Seasonality: How do sales fluctuate across different months of the year, and when do peak buying periods occur?  
@@ -14,6 +15,7 @@ Customer Retention: What is the overall customer retention rate, and how stable 
 
 ## Important KPIs
 The dashboard highlights several core performance indicators-
+
 Total Sales: 367M (reflecting a 40.8% positive trend)  
 Total Orders: 30K (reflecting a 40.1% positive trend)   
 Total Customers: 8,998 (reflecting a 13.5% growth)  
